@@ -170,7 +170,36 @@
      }
      }
      
- 
+     
+     .dropdown {
+        display: block;
+        gap: 30px; 
+        
+    }
+    
+    select {
+        padding: 10px 15px; 
+        font-size: 14px; 
+        border: 2px solid #014914; 
+        border-radius: 5px; /* Rounded corners */
+        background-color: white; /* Background color */
+        color: #333; /* Text color */
+        appearance: none; /* Remove default arrow */
+        cursor: pointer; /* Pointer cursor */
+        transition: border-color 0.3s; /* Smooth transition */
+    }
+    
+    /* Add a custom arrow */
+    select:focus {
+        outline: none; /* Remove outline */
+        border-color: #16370a; /* Change border color on focus */
+    }
+    
+   
+    
+   
+
+
  /*course*/
  
  .course{
@@ -214,7 +243,7 @@
      margin: 20px 10px;
      border-radius: 25px;
      font-weight: bold;
-     border: 2px solid #015e01;
+     border: 2px solid #040504;
      background: #01760156;
      color: rgb(1, 36, 4);
      cursor: pointer;
@@ -222,6 +251,7 @@
      margin-top: -5%;
      margin-left: 90%;
      margin-bottom: -5%;
+     
  
     }
     .submit-btn2 {
@@ -235,13 +265,23 @@
         background: #01760156;
         color: rgb(1, 36, 4);
         cursor: pointer;
-        position: relative;    
+        position: relative; 
+         
     }
     @media(max-width:700px){
         .submit-btn{
-            margin-top: -13%;
-             margin-left: 73%;
+            margin-top: -19%;
+             margin-left: 77%;
+             width: 65px;
+             display: inline-block;
         }
+        .submit-btn2{
+            width: 65px;
+            display: inline-block;
+            
+        }
+
+
     }
  
  .services-col{
@@ -273,16 +313,18 @@
     background: #01760156;
     color: rgb(1, 36, 4);
     margin-left: 45%;
-    margin-right: 45%;  
+    margin-right: 57%; 
+     
     
  }
 
  @media(max-width: 700px){
     .again-btn{
-        margin-left: 39%;
+        margin-left: 33%;
          margin-right: 40%;  
     }
 }
+
  @media(max-width: 700px){
      .row{
          flex-direction: column;
