@@ -8,7 +8,7 @@
      
      min-height: 100vh;
      width: 100%;
-     background-image: linear-gradient(rgba(2, 112, 86, 0.67),rgb(0, 4, 29));
+     background-image: linear-gradient(rgba(112, 189, 53, 0.814),rgb(0, 4, 29));
      background-position: center;
      background-size: cover;
      position: relative;
@@ -72,7 +72,7 @@
      transform: translateY(-50%);
      text-align: center;
     
-     color: white;
+     color: rgb(251, 250, 250);
      
  }
 
@@ -98,7 +98,7 @@
      text-shadow:2px 2px 5px rgb(7, 7, 7);
      font-family: 'Courier New', Courier, monospace;
      margin: 20px auto;
-     font-weight: 100;
+     font-weight: 1000;
      line-height: 25px;
  }
  button{
@@ -147,7 +147,7 @@
      }
      .nav-links{
          position: absolute;
-         background: #004f4d;
+         background: #004f09;
          height: 91.2vh;
          width: 200px;
          top:0;
@@ -330,6 +330,8 @@
          flex-direction: column;
      }
  }
+
+ 
  
  
  
