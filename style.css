@@ -98,7 +98,7 @@
      text-shadow:2px 2px 5px rgb(7, 7, 7);
      font-family: 'Courier New', Courier, monospace;
      margin: 20px auto;
-     font-weight: 1000;
+     font-weight: 10;
      line-height: 25px;
  }
  button{
@@ -176,6 +176,29 @@
         gap: 30px; 
         
     }
+    
+    select {
+        padding: 10px 15px; 
+        font-size: 14px; 
+        border: 2px solid #014914; 
+        border-radius: 5px; 
+        background-color: white; 
+        color: #333; 
+        appearance: none; 
+        cursor: pointer; 
+        transition: border-color 0.3s; 
+    }
+    
+    /* Add a custom arrow */
+    select:focus {
+        outline: none; 
+        border-color: #16370a; 
+    }
+    
+   
+    
+   
+
 
  /*course*/
  
@@ -307,8 +330,6 @@
          flex-direction: column;
      }
  }
-
- 
  
  
  
